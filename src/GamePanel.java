@@ -153,7 +153,6 @@ public class GamePanel extends JPanel implements ActionListener {
 	public void drawIndicator(Graphics graphics) {
 		graphics.setColor(Color.white);
 		graphics.setFont(new Font("Sans serif", Font.PLAIN, 15));
-		FontMetrics metrics = getFontMetrics(graphics.getFont());
 		graphics.drawString("↑", WIDTH - 3 * UNIT_SIZE, 3 * UNIT_SIZE);
 		graphics.drawString("↓", WIDTH - 3 * UNIT_SIZE, 4 * UNIT_SIZE);
 		graphics.drawString("←", WIDTH - 4 * UNIT_SIZE, 4 * UNIT_SIZE);
